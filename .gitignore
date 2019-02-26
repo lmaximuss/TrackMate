@@ -14,3 +14,4 @@
 
 ## MacOSX
 .DS_Store
+/.apt_generated_tests/

@@ -1066,6 +1066,7 @@ public class TmXmlReader
 		return filteredTrackIndices;
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	private Spot createSpotFrom( final Element spotEl )
 	{
 		final int ID = readIntAttribute( spotEl, SPOT_ID_ATTRIBUTE_NAME, logger );

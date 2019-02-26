@@ -80,6 +80,7 @@ public abstract class AbstractProvider< K extends TrackMateModule >
 						log.error( "Could not instantiate " + info.getClassName(), e );
 					}
 				}
+				System.out.print("hola "); 
 	}
 
 	public List< String > getKeys()

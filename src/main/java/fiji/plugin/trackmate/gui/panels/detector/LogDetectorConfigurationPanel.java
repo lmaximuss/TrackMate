@@ -103,7 +103,7 @@ public class LogDetectorConfigurationPanel extends ConfigurationPanel
 
 	protected final Model model;
 
-	private Logger localLogger;
+	protected Logger localLogger;
 
 	/** The layout in charge of laying out this panel content. */
 	protected SpringLayout layout;
@@ -265,7 +265,7 @@ public class LogDetectorConfigurationPanel extends ConfigurationPanel
 	/**
 	 * Fill the text fields with parameters grabbed from stored ImagePlus.
 	 */
-	private void refresh()
+	void refresh()
 	{
 		if ( null == imp ) {
 			return;
