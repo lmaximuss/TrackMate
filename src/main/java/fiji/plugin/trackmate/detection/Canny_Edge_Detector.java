@@ -77,6 +77,7 @@ public class Canny_Edge_Detector< T extends RealType< T > & NativeType< T >>  ex
 
 	private float gaussianKernelRadius = 2f;
 	private float lowThreshold = 2.5f;
+	private float highThreshold = 7.5f;
 	private int gaussianKernelWidth = 16;
 	private boolean contrastNormalized;
 
